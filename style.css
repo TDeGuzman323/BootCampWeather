@@ -1,10 +1,19 @@
-.content {
-    max-width: 1000px;
-    margin: auto;
-    padding: 0;
-    
+* {
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Amiri", serif;
+}
+
+.content {
+    margin: auto;
+    padding: 0; 
+}
+
+/* banner */
 .headBanner {
 background-image: url(images/weatherBanner.png);
 background-size: cover;
@@ -23,13 +32,37 @@ opacity: 50%;
     transform : translate(-50%, -50%);
     font-family: "Lobster", cursive;
     font-size: 60px;
-    color: #555;    
+    color: #555; 
+      
 }
 
-h2 {
-    text-align: center;
+/* search bar */
+form.search input [type=text] {
+    padding: 10px; 
+    font-size: 15px;
+    border: 1px solid gray;
+    width: 75%;
+    float: left;
 }
 
-p {
-    text-align: center;
+form.search button {
+    padding: 5px;
+    border: 1px solid gray;
+    border-left: none;
+    float:right;
+    cursor: pointer;
+    width: 15%;
+    background: #2196f3;
 }
+
+form.search button:hover {
+    background: #555;
+}
+
+/* clear floats */
+form.search::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
