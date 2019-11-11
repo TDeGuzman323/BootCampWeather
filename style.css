@@ -43,6 +43,7 @@ form.search input [type=text] {
     border: 1px solid gray;
     width: 75%;
     float: left;
+    font-family: "Amiri", serif;
 }
 
 form.search button {
@@ -66,3 +67,39 @@ form.search::after {
     display: table;
 }
 
+
+/* app stylings*/
+
+.container {
+    background-color: lightgray;
+    border: darkblue solid 5px; 
+    border-radius: 15px 15px 15px 15px;
+    
+}
+.title {
+    font-family: "Lobster", cursive;
+    text-align: center;
+    font-size: 35px;
+}
+
+.notification {
+    text-align: center;
+    font-family: "Amiri", serif;
+}
+
+.degrees {
+    text-align: center;
+    font-family: "Lobster", cursive;
+    font-size: 80px;
+    color: dodgerblue;
+}
+
+.temp-description {
+    text-align: center;
+    font-family: "Amiri", serif;
+}
+
+.location {
+    text-align: center;
+    font-family: "Amiri", serif;
+}
