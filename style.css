@@ -37,7 +37,7 @@ opacity: 50%;
 }
 
 /* search bar */
-#city {
+#cityName {
     padding: 10px; 
     font-size: 15px;
     border: 1px solid gray;
@@ -47,7 +47,7 @@ opacity: 50%;
     margin-top: 30px;
 }
 
-#find {
+#findWeather {
     padding: 5px;
     border: 1px solid gray;
     border-left: none;
@@ -58,12 +58,12 @@ opacity: 50%;
     margin-top: 30px;
 }
 
-#find:hover {
+#findWeather:hover {
     background: #555;
 }
 
 /* clear floats */
-#find ::after {
+#findWeather ::after {
     content: "";
     clear: both;
     display: table;
@@ -77,9 +77,7 @@ opacity: 50%;
     border: darkblue solid 5px; 
     border-radius: 15px 15px 15px 15px;
     padding: 30px;
-    margin-top: 30px;
-   
-    
+    margin-top: 30px;   
 }
 .title {
     font-family: "Lobster", cursive;
@@ -88,7 +86,7 @@ opacity: 50%;
 }
 
 .notification {
-    text-align: center;
+    text-align: right;
     font-family: "Amiri", serif;
 }
 
@@ -99,7 +97,7 @@ opacity: 50%;
     color: dodgerblue;
 }
 
-.temp-description {
+.description {
     text-align: center;
     font-family: "Amiri", serif;
 }
