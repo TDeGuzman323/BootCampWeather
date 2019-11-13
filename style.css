@@ -37,31 +37,33 @@ opacity: 50%;
 }
 
 /* search bar */
-form.search input [type=text] {
+#city {
     padding: 10px; 
     font-size: 15px;
     border: 1px solid gray;
     width: 75%;
     float: left;
     font-family: "Amiri", serif;
+    margin-top: 30px;
 }
 
-form.search button {
+#find {
     padding: 5px;
     border: 1px solid gray;
     border-left: none;
-    float:right;
     cursor: pointer;
-    width: 15%;
+    width: 20%;
     background: #2196f3;
+    display: inline-block;
+    margin-top: 30px;
 }
 
-form.search button:hover {
+#find:hover {
     background: #555;
 }
 
 /* clear floats */
-form.search::after {
+#find ::after {
     content: "";
     clear: both;
     display: table;
@@ -74,6 +76,9 @@ form.search::after {
     background-color: lightgray;
     border: darkblue solid 5px; 
     border-radius: 15px 15px 15px 15px;
+    padding: 30px;
+    margin-top: 30px;
+   
     
 }
 .title {
